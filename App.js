@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 
+//this is a timer made for tracking the last time i visited my website
+
+//"Last visit was 12 days ago"
+
 function LastUpdated(props) {
     const ago = props.new - props.old;
     return (
